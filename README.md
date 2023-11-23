@@ -8,6 +8,7 @@ This repository contains code for an image captioning model that combines Convol
 
 Make sure you have the following dependencies installed:
 
+- Keras
 - TensorFlow
 - PIL
 - tqdm
