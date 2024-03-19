@@ -1,8 +1,32 @@
-# Image Caption Generator
+# Image Captioning using CNN and RNN
 
-This is a Deep learning project using Flickr8k dataset
+This repository contains code for an image captioning model that combines Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) to generate descriptive captions for images. The model is trained on the Flickr8k dataset.
 
-# FAQ
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following dependencies installed:
+
+- Python 3.x
+- Keras
+- TensorFlow
+- PIL
+- tqdm
+- numpy
+
+### Installation
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
+
+### Dataset
+
+Download the Flickr8k dataset from [here](https://forms.illinois.edu/sec/1713398) and extract the contents into the `data` folder.
 
 ## How can I run this project?
 
@@ -18,6 +42,20 @@ This is a Deep learning project using Flickr8k dataset
 
 6.  Run all the shells. Happy CODING :)
 
+
+## Code Structure
+
+- `image_captioning.ipynb`: Jupyter notebook containing the code for data preprocessing, model training, and saving the model.
+- `testing_caption_generator.py`: Python script for testing the trained model on new images.
+- `utils.py`: Utility functions for data loading and processing.
+- `data/`: Folder to store the Flickr8k dataset.
+
 ## VISUAL REPRESENTATION OF MODEL
 ![Visual Representation](model.png)
+
+## Acknowledgments
+
+- The code is inspired by the [Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555) paper.
+- The pre-trained Xception model is used for image feature extraction.
+
 
